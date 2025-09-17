@@ -1,0 +1,26 @@
+# Core
+typer[all]==0.9.0        # CLI framework
+rich==13.6.0             # Fancy console outputs (if used in logging/pretty)
+
+# Networking / Requests
+requests==2.31.0         # HTTP requests for fuzzing/screenshots
+dnspython==2.3.0         # DNS resolution for subdomain bruteforce
+urllib3==2.0.6           # HTTP retry handling
+
+# Concurrency / Async
+tqdm==4.65.0             # Progress bars (optional for long scans)
+
+# Parsing / Utilities
+python-dotenv==1.0.0     # Optional: manage config if using .env files
+colorama==0.4.6          # Color support in Windows terminals
+
+# Screenshots / Automation
+selenium==5.9.0          # Browser automation for screenshots
+webdriver-manager==4.2.2 # Auto-manage browser drivers
+
+# Optional (for Nmap integration)
+python-nmap==0.7.1       # Interface to Nmap
+
+# Type checking / linting (optional for dev)
+mypy==1.5.1
+

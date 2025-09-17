@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+src/venv/
+.env
+
+# Husk results
+results/
+*.json
+tmp_nmap.xml
+
+# Screenshots
+screenshots/
+
+# IDEs
+.vscode/
+.idea/
