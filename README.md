@@ -31,6 +31,9 @@ python3 src/main.py subs example.com
 python3 src/main.py recon example.com
 
 
+
+```
+
 ##DISCLAIMER
 
 Husk – Recon Automation Tool is intended for educational and ethical purposes only.
